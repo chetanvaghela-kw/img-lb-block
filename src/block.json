@@ -1,0 +1,19 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "img-lb-block-for-gutenberg/img-lb",
+	"version": "0.1.0",
+	"title": "Image with LightBox",
+	"category": "media",
+	"icon": "smiley",
+	"description": "Display an image that opens in a lightbox overlay when clicked, allowing for an enhanced viewing experience of your images.",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "image-with-lightbox-block-for-gutenberg",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"viewScript": ["img-lb-gutenberg-block"],
+	"style": ["img-lb-gutenberg-block"]
+}

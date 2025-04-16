@@ -1,0 +1,20 @@
+{
+  "name": "image-with-lightbox-block-for-gutenberg",
+  "version": "1.0.0",
+  "description": "Image with Lightbox Block for Gutenberg",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start",
+    "lint:js": "wp-scripts lint-js",
+    "lint:css": "wp-scripts lint-style"
+  },
+  "dependencies": {
+    "@wordpress/block-editor": "^12.0.0",
+    "@wordpress/blocks": "^12.0.0",
+    "@wordpress/components": "^25.0.0",
+    "@wordpress/i18n": "^4.0.0"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^26.19.0"
+  }
+}
